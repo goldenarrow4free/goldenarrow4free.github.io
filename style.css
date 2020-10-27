@@ -1,8 +1,9 @@
 
 html {
   background-color: #F2F495;
+  font-family: 'Architects Daughter', cursive;
 }
 p, h1, h2, li {
   color: black;
-  font-family: 'Architects Daughter', cursive;
+  
 }
