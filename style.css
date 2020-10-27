@@ -2,7 +2,7 @@
 html {
   background-color: #E8E88B;
 }
-p {
+p, h1, ul {
   color: black;
   font-family: 'Architects Daughter', cursive;
 }
