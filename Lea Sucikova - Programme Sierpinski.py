@@ -16,8 +16,6 @@ def dessiner(courbe, longueur, angle):
             turtle.forward(longueur)
 
 
-#dessiner('F', 50, 60)
-
 def regleSierpinski(chaine):
     nouvelleChaine = ''    # on crée une nouvelle chaine de caractères VIDE
     for lettre in chaine:  # on épelle la chaine de caractères donnée en paramètres
@@ -39,19 +37,6 @@ def courbeSierpinski(motifInitial, niter):
         nouveauMotif = regleSierpinski(courbe)  # on trouve le nouveau Motif à partir du motif de départ
         courbe = nouveauMotif # on dit que le nouveau Motif est maintenant le motif de départ
     return courbe
-
-
-
-#courbe = courbeSierpinski('F',3)
-#dessiner(courbe,50, 60)
-
-# def flocon(motifInitial, niter):
-#     courbe = courbeSierpinski(motifInitial, niter)
-#     flocon = ''
-#     for _ in range(3):
-#         flocon += courbe
-#         flocon += '--' 
-#     return flocon
 
 longueur = 10
 angle = -120
